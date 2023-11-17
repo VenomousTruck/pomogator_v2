@@ -10,7 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/forum.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
@@ -20,10 +22,14 @@
 <body>
     <div class="sidebar">
         <!-- Лого + кнопка выдвижения сайдбара -->
+
         <!-- <div class="logo-details">
             <div class="logo_name"></div>
             <i class='bx bx-menu' id="btn"></i>
         </div> -->
+
+        <!-- Сайдбар-->
+
         <ul class="nav-list">
             <li>
                 <a href="index.html">
@@ -92,7 +98,9 @@
     </div>
 
     <section class="home-section">
+
         <!-- Навигационная панель сверху -->
+
         <nav class="navbar py-3" style="background-color: #11101d;">
             <div class="container-fluid">
                 <a class="navbar-brand">Помогатор</a>
@@ -102,15 +110,15 @@
                 </form>
             </div>
         </nav>
-        <!---->
 
         <!-- Название страницы -->
+
         <h1 class="title">
             Главная
         </h1>
-        <!---->
 
         <!-- Секция контента-->
+
         <h2 class="news">Новости</h2>
         <section class="cards-wrapper">
             <div class="card-grid-space">
@@ -163,8 +171,9 @@
             </div>
         </section>
 
-        <!-- Секция с контентом о преподавателях, курсах, статьях-->
-        <h2 class="news">На нашем сайте Вы найдете:</h2>
+        <!-- Секция с контентом о преподавателях, курсах, статьях и т.д.-->
+
+        <h2 class="news">Краткая информация</h2>
         <section class="page-contain">
             <a href="teachers/teachers.html" class="data-card">
                 <h3>1228</h3>
@@ -208,39 +217,383 @@
         </section>
     </section>
 
+    <!-- Форум-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content animated fadeInRight">
+
+                    <div class="ibox-content m-b-sm border-bottom">
+                        <div class="p-xs">
+                            <div class="pull-left m-r-md">
+                                <i class="fa fa-globe text-black mid-icon"></i>
+                            </div>
+                            <h2>Добро пожаловать на форум!</h2>
+                            <span>Чувствуйте себя как дома.</span>
+                        </div>
+                    </div>
+
+                    <div class="ibox-content forum-container">
+
+                        <div class="forum-title">
+                            <div class="pull-right forum-desc">
+                                <small>Всего постов: 320,800</small>
+                            </div>
+                            <h3>Важные темы</h3>
+                        </div>
+
+                        <div class="forum-item active">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-shield"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Общая дискуссия</a>
+                                    <div class="forum-sub-title">Поговорим о спорте, развлечениях, музыке, фильмах, поговорим обо всем.</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Для новичков</a>
+                                    <div class="forum-sub-title">Новичок в сообществе? Пожалуйста, прочтите информацию о нашем сайте и правила нашего сообщества.</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        3945
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        20
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        167
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum-item active">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Анонсы</a>
+                                    <div class="forum-sub-title">Этот форум содержит объявления для сообщества.</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        943
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        120
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        214
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Если потребуется - раскомментируй -->
+
+                        <!-- <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Staff Discussion</a>
+                                    <div class="forum-sub-title">This forum is for private, staff member only
+                                        discussions, usually pertaining to the community itself. </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+
+                        <div class="forum-title">
+                            <div class="pull-right forum-desc">
+                                <small>Всего постов: 17,800,600</small>
+                            </div>
+                            <h3>Другие темы</h3>
+                        </div>
+
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-clock-o"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Lorem Ipsum is simply dummy text.
+                                    </a>
+                                    <div class="forum-sub-title">Various versions have evolved over the years, sometimes
+                                        by accident, sometimes on purpose passage of Lorem Ipsum (injected humour and
+                                        the like).</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-bomb"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">There are many variations of
+                                        passages</a>
+                                    <div class="forum-sub-title"> If you are going to use a passage of Lorem Ipsum, you
+                                        need to be sure there isn't anything embarrassing hidden in the middle of text.
+                                        All the Lorem Ipsum generators on the . </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-bookmark"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">The standard chunk of Lorem
+                                        Ipsum</a>
+                                    <div class="forum-sub-title">Ipsum generators on the Internet tend to repeat
+                                        predefined chunks as necessary, making this the first true generator on the
+                                        Internet.</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="forum-icon">
+                                        <i class="fa fa-ambulance"></i>
+                                    </div>
+                                    <a href="#" class="forum-item-title">Lorem Ipsum, you need to be sure
+                                        there</a>
+                                    <div class="forum-sub-title">Internet tend to repeat predefined chunks as necessary,
+                                        making this the</div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        1216
+                                    </span>
+                                    <div>
+                                        <small>Просмотров</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        368
+                                    </span>
+                                    <div>
+                                        <small>Тем</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 forum-info">
+                                    <span class="views-number">
+                                        140
+                                    </span>
+                                    <div>
+                                        <small>Постов</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Футер сайта-->
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <h6>About</h6>
-                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
-                        upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
-                        snippets as the code wants to be simple. We will help programmers build up concepts in different
-                        programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
-                        SQL and Algorithm.</p>
+                    <h6>О проекте</h6>
+                    <p class="text-justify">pomogator.com<i> - Проект, направленный на помощь студентам и
+                            преподавателям.</i>
+                        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt quidem natus ullam
+                        veritatis earum rerum odit, unde asperiores repellendus non sed maiores itaque tenetur id
+                        voluptatum corporis aut amet?
+                    </p>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
+                <!-- Колонка с информацией (стоит добавить сюда то, что не вошло в сайдбар)-->
+
+                <!-- <div class="col-xs-6 col-md-3">
                     <h6>Categories</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                        <li><a href="#">C</a></li>
+                        <li><a href="#">UI Design</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Templates</a></li>
                     </ul>
-                </div>
+                </div> -->
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Quick Links</h6>
+                    <h6>Ссылки на дополнительную информацию</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                        <li><a href="#">О команде</a></li>
+                        <li><a href="#">Связаться с нами</a></li>
+                        <li><a href="#">Помочь проекту</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Карта сайта</a></li>
                     </ul>
                 </div>
             </div>
@@ -248,20 +601,24 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12">
+                <!-- Копирайт-->
+
+                <!-- <div class="col-md-8 col-sm-6 col-xs-12">
                     <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
                         <a href="#">Scanfcode</a>.
                     </p>
-                </div>
+                </div> -->
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <!-- Иконки соцсетей-->
+
+                <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                         <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>

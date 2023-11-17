@@ -1,0 +1,288 @@
+/* line 1, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+body {
+  margin-top: 20px;
+  background: #eee;
+}
+
+/* line 4, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.white-bg {
+  background-color: #ffffff;
+}
+
+/* line 6, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.page-heading {
+  border-top: 0;
+  padding: 0 10px 20px 10px;
+}
+
+/* line 10, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-post-container .media {
+  margin: 10px 10px 10px 10px;
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 15, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-post-container .media-body .photos {
+  margin: 10px 0;
+}
+
+/* line 17, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-avatar {
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  width: 110px;
+}
+
+/* line 22, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-avatar .img-circle {
+  height: 48px;
+  width: 48px;
+}
+
+/* line 25, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.author-info {
+  color: #676a6c;
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* line 30, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-post-info {
+  padding: 9px 12px 6px 12px;
+  background: #f9f9f9;
+  border: 1px solid #f1f1f1;
+}
+
+/* line 35, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.media-body > .media {
+  background: #f9f9f9;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+}
+
+/* line 39, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.media-body > .media .forum-avatar {
+  width: 70px;
+  margin-right: 10px;
+}
+
+/* line 42, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.media-body > .media .forum-avatar .img-circle {
+  height: 38px;
+  width: 38px;
+}
+
+/* line 45, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-photo {
+  max-width: 140px;
+  border-radius: 3px;
+}
+
+/* line 48, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.mid-icon {
+  font-size: 66px;
+  font-size: 66px !important;
+}
+
+/* line 51, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-item {
+  margin: 10px 0;
+  padding: 10px 0 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 55, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-item small {
+  color: #999;
+}
+
+/* line 57, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-item .forum-sub-title {
+  color: #999;
+  margin-left: 50px;
+}
+
+/* line 61, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-item.active .fa {
+  color: #11101d;
+}
+
+/* line 64, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-item.active a.forum-item-title {
+  color: #11101d;
+}
+
+/* line 66, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.views-number {
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* line 70, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-container,
+.forum-post-container {
+  padding: 30px !important;
+}
+
+/* line 73, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-title {
+  margin: 15px 0 15px 0;
+}
+
+/* line 75, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-info {
+  text-align: center;
+}
+
+/* line 77, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-desc {
+  color: #999;
+  float: none !important;
+}
+
+/* line 80, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-icon {
+  float: left;
+  width: 30px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* line 85, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.forum-icon .fa {
+  font-size: 30px;
+  margin-top: 8px;
+  color: #9b9b9b;
+}
+
+/* line 90, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+a.forum-item-title {
+  color: inherit;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 95, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+a.forum-item-title:hover {
+  color: inherit;
+}
+
+@media (max-width: 992px) {
+  /* line 98, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+  .forum-info {
+    margin: 15px 0 10px 0;
+    display: none;
+  }
+  /* line 102, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+  .ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+/* line 109, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+
+/* line 113, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox.collapsed .fa.fa-chevron-up:before {
+  content: "\f078";
+}
+
+/* line 116, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox.collapsed .fa.fa-chevron-down:before {
+  content: "\f077";
+}
+
+/* line 118, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+
+/* line 121, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 3px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+}
+
+/* line 135, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+
+/* line 143, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.ibox-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+
+/* line 149, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.message-input {
+  height: 90px !important;
+}
+
+/* line 151, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.form-control,
+.single-line {
+  background-color: #FFFFFF;
+  background-image: none;
+  border: 1px solid #e5e6e7;
+  border-radius: 1px;
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* line 163, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.text-navy {
+  color: #1ab394;
+}
+
+/* line 165, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.m-b-sm {
+  margin-bottom: 10px;
+}
+
+/* line 167, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.col-lg-12 {
+  margin: 40px 0;
+}
+
+/* line 169, ../../LaptopProjects/pomogator_v2/src/sass/forum.sass */
+.fa-globe {
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=forum.css.map */
