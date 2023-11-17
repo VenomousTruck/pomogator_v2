@@ -1,0 +1,223 @@
+@import
+	url('https 
+&://fonts
+	&.googleapis
+		&.com/css2?family=Roboto
+			&:wght@100300400500700900& d isplay=swap');
+				*
+					box-sizing: border-box
+.page-contain
+	display: flex
+	min-height: 50vh
+	align-items: center
+	justify-content: center
+	background: #ffffff
+	border: .75em solid white
+	padding: 2em
+	font-family: 'Open Sans', sans-serif
+.data-card
+	display: flex
+	flex-direction: column
+	max-width: 20.75em
+	min-height: 20.75em
+	overflow: hidden
+	border-radius: .5em
+	text-decoration: none
+	background: white
+	margin: 1em
+	padding: 2.75em 2.5em
+	box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1)
+	transition: transform .45s ease, background .45s ease
+	h3
+		color: #2E3C40
+		font-size: 3.5em
+		font-weight: 600
+		line-height: 1
+		padding-bottom: .5em
+		margin: 0 0 0.142857143em
+		border-bottom: 2px solid #11101d
+		transition: color .45s ease, border .45s ease
+	h4
+		color: #627084
+		text-transform: uppercase
+		font-size: 1.125em
+		font-weight: 700
+		line-height: 1
+		letter-spacing: 0.1em
+		margin: 0 0 1.777777778em
+		transition: color .45s ease
+		color: #FFFFFF
+	p
+		opacity: 0
+		color: #FFFFFF
+		font-weight: 600
+		line-height: 1.8
+		margin: 0 0 1.25em
+		transform: translateY(-1em)
+		transition: opacity .45s ease, transform .5s ease
+		opacity: 1
+		transform: none
+.link-text
+	display: block
+	color: #11101d
+	font-size: 1.125em
+	font-weight: 600
+	line-height: 1.2
+	margin: auto 0 0
+	transition: color .45s ease
+	svg
+		margin-left: .5em
+		transition: transform .6s ease
+	path
+		transition: fill .45s ease
+		color: #FFFFFF
+	svg
+		animation: point 1.25s infinite alternate
+	path
+		fill: #FFFFFF
+
+		&:hover
+			background: #11101d
+			transform: scale(1.02)
+			h3
+				color: #FFFFFF
+				border-bottom-color: #11101d
+
+				:root
+					--color: #11101d
+					--transition-time: 0.5s
+	@media
+		screen 
+			and 
+				(max-width 
+		&:
+						900px) 
+			.cards-wrapper
+				grid-template-columns: 1fr
+						500px) 
+	&
+		padding: 4rem 2rem
+						450px) 
+		.info
+			display: block
+			text-align: center
+	.news
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100px
+		border-bottom: #000000 solid 1px
+		color: #000000
+.cards-wrapper
+	display: grid
+	justify-content: center
+	align-items: center
+	grid-template-columns: 1fr 1fr 1fr
+	grid-gap: 4rem
+	padding: 3rem
+	margin: 0 auto
+	width: max-content
+.card
+	--bg-filter-opacity: 0.5
+	background-image: linear-gradient(rgba(0, 0, 0, var(--bg-filter-opacity)), rgba(0, 0, 0, var(--bg-filter-opacity))), var(--bg-img)
+	height: 18em
+	width: 17em
+	font-size: 22px
+	color: white
+	border-radius: 1em
+	padding: 1em
+	display: flex
+	align-items: flex-end
+	background-size: cover
+	background-position: center
+	box-shadow: 0 0 5em -1em black
+	transition: all, var(--transition-time)
+	position: relative
+	overflow: hidden
+	border: 10px solid #ccc
+	text-decoration: none
+	max-width: calc(100vw - 4rem)
+	&:hover
+		transform: rotate(0)
+		color: var(--color)
+		.tags
+			.tag
+				background: var(--color)
+				color: white
+	h1
+		margin: 50px
+		font-size: 1.2em
+		line-height: 1.2em
+	p
+		font-size: 0.75em
+		margin-top: 0.5em
+		line-height: 2em
+	.tags
+		display: flex
+		.tag
+			font-size: 0.75em
+			background: rgba(255, 255, 255, 0.5)
+			border-radius: 0.3rem
+			padding: 0 0.5em
+			margin-right: 0.5em
+			line-height: 1.5em
+			transition: all, var(--transition-time)
+	.date
+		position: absolute
+		top: 0
+		right: 0
+		font-size: 0.75em
+		padding: 1em
+		line-height: 1em
+		opacity: .8
+	&:before
+		background: #ddd
+		width: 250%
+		height: 250%
+	&:after
+		background: white
+		width: 200%
+		height: 200%
+.card:before,
+.card:after
+	content: ''
+	transform: scale(0)
+	transform-origin: top left
+	border-radius: 50%
+	position: absolute
+	left: -50%
+	top: -50%
+	z-index: -5
+	transition: all, var(--transition-time)
+	transition-timing-function: ease-in-out
+.card:hover:before,
+.card:hover:after
+	transform: scale(1)
+.card-grid-space
+	.num
+		font-size: 3em
+		margin-bottom: 1.2rem
+		margin-left: 1rem
+		margin-left: 0
+		text-align: center
+.info
+	font-size: 1.2em
+	display: flex
+	padding: 1em 3em
+	height: 3em
+	justify-content: center
+	img
+		height: 3em
+		margin-right: 0.5em
+	h1
+		font-size: 1em
+		font-weight: normal
+		margin: 0
+@media
+	screen 
+		and 
+			(max-width 
+	&:
+					1285px) 
+		.cards-wrapper
+			grid-template-columns: 1fr 1fr

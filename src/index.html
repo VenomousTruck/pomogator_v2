@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Помогатор</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <!-- Лого + кнопка выдвижения сайдбара -->
+        <!-- <div class="logo-details">
+            <div class="logo_name"></div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div> -->
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Главная</span>
+                </a>
+                <span class="tooltip">Главная</span>
+            </li>
+            <li>
+                <a href="dashboard/dashboard.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Личный кабинет</span>
+                </a>
+                <span class="tooltip">Личный кабинет</span>
+            </li>
+            <li>
+                <a href="forum/forum.html">
+                    <i class='bx bx-conversation'></i>
+                    <span class="links_name">Форум</span>
+                </a>
+                <span class="tooltip">Форум</span>
+            </li>
+            <li>
+                <a href="courses/courses.html">
+                    <i class='bx bx-book'></i>
+                    <span class="links_name">Курсы</span>
+                </a>
+                <span class="tooltip">Курсы</span>
+            </li>
+            <li>
+                <a href="teachers/teachers.html">
+                    <i class='bx bx-chalkboard'></i>
+                    <span class="links_name">Преподаватели</span>
+                </a>
+                <span class="tooltip">Преподаватели</span>
+            </li>
+            <li>
+                <a href="news/news.html">
+                    <i class='bx bx-news'></i>
+                    <span class="links_name">Новости</span>
+                </a>
+                <span class="tooltip">Новости</span>
+            </li>
+            <li>
+                <a href="articles/articles.html">
+                    <i class='bx bx-detail'></i>
+                    <span class="links_name">Статьи</span>
+                </a>
+                <span class="tooltip">Статьи</span>
+            </li>
+            <li>
+                <a href="about/about.html">
+                    <i class='bx bx-dots-horizontal'></i>
+                    <span class="links_name">О нас</span>
+                </a>
+                <span class="tooltip">О нас</span>
+            </li>
+            <li class="exit">
+                <a href="registration/register.html">
+                    <i class='bx bx-log-out icon'></i>
+                    <span class="links_name">Выйти</span>
+                </a>
+                <span class="tooltip">Выйти</span>
+            </li>
+        </ul>
+    </div>
+
+    <section class="home-section">
+        <!-- Навигационная панель сверху -->
+        <nav class="navbar py-3" style="background-color: #11101d;">
+            <div class="container-fluid">
+                <a class="navbar-brand">Помогатор</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                    <button class="btn btn btn-light" type="submit">Поиск</button>
+                </form>
+            </div>
+        </nav>
+        <!---->
+
+        <!-- Название страницы -->
+        <h1 class="title">
+            Главная
+        </h1>
+        <!---->
+
+        <!-- Секция контента-->
+        <h2 class="news">Новости</h2>
+        <section class="cards-wrapper">
+            <div class="card-grid-space">
+                <div class="num"></div>
+                <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/"
+                    style="--bg-img: url('https://www.susu.ru/sites/default/files/styles/wide_news_image/public/field/image/cfbeb05e11274d8dcaaba.jpg?itok=HR6hfuSc')">
+                    <div>
+                        <h1>Поздравление ректора ЮУрГУ с Днем преподавателя высшей школы</h1>
+                        <p>Примите мои поздравления с «молодым», но очень...</p>
+                        <div class="date">16.11.2023</div>
+
+                        <!-- Тег снизу карточки-->
+                        <div class="tags">
+                            <div class="tag"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <div class="num"></div>
+                <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                    style="--bg-img: url('https://www.susu.ru/sites/default/files/styles/wide_news_image/public/field/image/pa104418.jpeg?itok=u7yR64kI')">
+                    <div>
+                        <h1>ЮУрГУ укрепил свои позиции в рейтинге медиаактивности вузов России</h1>
+                        <p>Министерство науки и высшего образования России...</p>
+                        <div class="date">16.11.2023</div>
+
+                        <!-- Тег снизу карточки-->
+                        <div class="tags">
+                            <div class="tag"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <div class="num"></div>
+                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+                    style="--bg-img: url('https://www.susu.ru/sites/default/files/styles/wide_news_image/public/field/image/img_2356.jpg?itok=6oK5T3Cq')">
+                    <div>
+                        <h1>В ЮУрГУ прошли Первые Вишевские чтения </h1>
+                        <p>16 ноября в Институте Медиа и социально-гуманитарных наук...</p>
+                        <div class="date">16.11.2023</div>
+
+                        <!-- Тег снизу карточки-->
+                        <div class="tags">
+                            <div class="tag"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Секция с контентом о преподавателях, курсах, статьях-->
+        <h2 class="news">На нашем сайте Вы найдете:</h2>
+        <section class="page-contain">
+            <a href="teachers/teachers.html" class="data-card">
+                <h3>1228</h3>
+                <h4>Преподавателей</h4>
+                <p>Нажмите, чтобы узнать больше.</p>
+                <span class="link-text">
+                    Смотреть всех преподавателей
+                    <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z"
+                            fill="#11101D" />
+                    </svg>
+                </span>
+            </a>
+            <a href="courses/courses.html" class="data-card">
+                <h3>214</h3>
+                <h4>Курсов</h4>
+                <p>Нажмите, чтобы узнать больше.</p>
+                <span class="link-text">
+                    Смотреть информацию о программах
+                    <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z"
+                            fill="#11101D" />
+                    </svg>
+                </span>
+            </a>
+            <a href="articles/articles.html" class="data-card">
+                <h3>270</h3>
+                <h4>Статей</h4>
+                <p>Нажмите, чтобы узнать больше.</p>
+                <span class="link-text">
+                    Смотреть статьи
+                    <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z"
+                            fill="#11101D" />
+                    </svg>
+                </span>
+            </a>
+        </section>
+    </section>
+
+    <!-- Футер сайта-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
+                        upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
+                        snippets as the code wants to be simple. We will help programmers build up concepts in different
+                        programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
+                        SQL and Algorithm.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">Scanfcode</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js'></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

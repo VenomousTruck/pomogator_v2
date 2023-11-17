@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reg-auth.css">
+    <title>Помогатор</title>
+</head>
+
+<body>
+    <h2>Добро пожаловать на Помогатор!</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="../index.html">
+                <h1>Создать аккаунт</h1>
+                <span>Введите свои данные</span>
+                <input type="text" placeholder="Логин" required/>
+                <input type="email" placeholder="Почта" required/>
+                <input type="password" placeholder="Пароль" required/>
+                <button>Зарегистрироваться</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="../index.html">
+                <h1>Вход</h1>
+                <span>Зайдите под уже существующим аккаунтом</span>
+                <input type="email" placeholder="Почта" required/>
+                <input type="password" placeholder="Пароль" required/>
+                <a href="#">Забыли пароль?</a>
+                <button>Вход</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>С возвращением!</h1>
+                    <p>Чтобы пользоваться нашим сервисом введите свои персональные данные</p>
+                    <button class="ghost" id="signIn">Вход</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Здравствуйте!</h1>
+                    <p>Введите свои личные данные и начните путешествие вместе с нами</p>
+                    <button class="ghost" id="signUp">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../js/registration.js"></script>
+
+</html>
