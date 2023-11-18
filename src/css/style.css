@@ -21,7 +21,7 @@
 }
 
 .sidebar.open {
-	width: 250px;
+	width: 225px;
 }
 
 .sidebar .logo-details {
@@ -259,8 +259,8 @@
 }
 
 .sidebar.open~.home-section {
-	left: 250px;
-	width: calc(100% - 250px);
+	left: 225px;
+	width: calc(100% - 225px);
 }
 
 .home-section .text {
